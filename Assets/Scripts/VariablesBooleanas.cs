@@ -9,6 +9,16 @@ public class VariablesBooleanas : MonoBehaviour
     bool variableC;
 
     int valor1 = 5;
+    int limiteInferior = -5;
+    int limiteSuperior = 5;
+    enum selecciónColor
+    {
+        rojo,
+        verde,
+        azul,
+        blanco,
+        gris
+    }
 
     // A B C    ||  &&  ((A||B)&&C)     ((A||B)||C)
     // 1 1 1    1   1   1               1
@@ -39,6 +49,42 @@ public class VariablesBooleanas : MonoBehaviour
         {
             Debug.Log("La operación 3 es VERDADERO");
         }
+        valor1 = Random.Range(limiteSuperior, limiteInferior);
+        Debug.Log(valor1);
+
+        //if (valor1 >= 0)
+        //{
+        //    Debug.Log("El valor es positivo");
+        //}
+        //else
+        //{
+        //    Debug.Log("El valor es negativo");
+        //}
+
+        string resultado = (valor1 >= 0) ? "El valor es positivo" : "El valor es negativo";
+        Debug.Log(resultado);
+
+        //switch (valor1)
+        //{
+        //    case (int) selecciónColor.rojo:
+        //        Debug.Log("El color seleccionado es rojo");
+        //        break;
+        //    case (int) selecciónColor.verde:
+        //        Debug.Log("El color seleccionado es verde");
+        //        break;
+        //    case (int) selecciónColor.azul:
+        //        Debug.Log("El color seleccionado es azul");
+        //        break;
+        //    case (int) selecciónColor.blanco:
+        //        Debug.Log("El color seleccionado es blanco");
+        //        break;
+        //    case (int) selecciónColor.gris:
+        //        Debug.Log("El color seleccionado es gris");
+        //        break;
+        //    default:
+        //        Debug.Log("Este no es un color válido");
+        //        break;
+        //}
 
         //variable1 = true;
         //Debug.Log(variable1);

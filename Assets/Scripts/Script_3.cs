@@ -20,15 +20,15 @@ public class Script_3 : MonoBehaviour
     private void OnEnable()
     {
         GameObject tempGameObject = Instantiate<GameObject>(PrefabCapsule);
-        Color a = new Color(Random.value, Random.value, Random.value);
-        tempGameObject.GetComponent<MeshRenderer>().material.color = a;
+        //Color a = new Color(Random.value, Random.value, Random.value);
+        //tempGameObject.GetComponent<MeshRenderer>().material.color = a;
         tempGameObject.transform.position = new Vector3(Random.Range(4, 5), Random.Range(4, 5), Random.Range(4, 5));
     }
     private void OnDisable()
     {
         GameObject tempGameObject = Instantiate<GameObject>(PrefabCapsule);
-        Color b = new Color(Random.value, Random.value, Random.value);
-        tempGameObject.GetComponent<MeshRenderer>().material.color = b;
+        //Color b = new Color(Random.value, Random.value, Random.value);
+        //tempGameObject.GetComponent<MeshRenderer>().material.color = b;
         tempGameObject.transform.position = new Vector3(Random.Range(-2, 2), Random.Range(-3, 3), Random.Range(-1, -1));
     }
 }
