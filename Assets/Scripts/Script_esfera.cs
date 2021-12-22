@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Script_2 : MonoBehaviour
+public class Script_esfera : MonoBehaviour
 {
     public GameObject PrefabSphere;
     public int numSpheres = 0;

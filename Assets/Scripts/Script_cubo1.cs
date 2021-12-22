@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Script_1 : MonoBehaviour
+public class Script_cubo1 : MonoBehaviour
 {
     public GameObject PrefabCubo;
     bool variable1;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Script_3 : MonoBehaviour
+public class Script_cápsula : MonoBehaviour
 {
     public GameObject PrefabCapsule;
    
